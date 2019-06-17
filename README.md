@@ -30,13 +30,26 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. Describe the biggest difference between `.forEach` & `.map`.
 
+    .forEach runs through an array and and modifies each item on the array not as an array. .map  runs each index of an array through a function and the returns a new array.
+
 2. What is the difference between a function and a method?
+
+    A function can be placed on the global scope where as a method is just a function placed inside of an object.
 
 3. What is closure?
 
+    Closure is a function inside of a function. So the outside function is on the global scope and the inside function is on the scope inside of the outside function.
+
 4. Describe the four rules of the 'this' keyword.
 
+    1. Global binding is when ’this’ is pointing/refering to the global scope. (You don’t want to do that)
+    2. The implicit binding is when ‘this’ refers to the object that it is inside of. 
+    3. New binding is when ‘this’ refers to an object that is created by ’new’. So the values on the ’new’ object are what ‘this’ is pointing too.
+    4. Explicit Binding is when the .call and .apply are used to give explicit values for ‘this’.
+
 5. Why do we need super() in an extended class?
+
+    The super(). Is used to pass down values from a parent class into the extended class. It replaces the .call action from the ES5 version of inheritance.
 
 ## Project Set up
 
